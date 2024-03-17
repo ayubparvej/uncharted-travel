@@ -200,6 +200,54 @@ nav {
 
 }
 
+/* why-choos-us-section-start */
+
+.why-choos-us-text {
+    text-align: center;
+    margin: 50px;
+}
+
+.why-choos-us-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-one {
+    background-color: #e7e3df5e;
+    border-radius: 10px;
+    padding: 50px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.card-two {
+    background-color: #f5f7e88a;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50%;
+}
+
+.card-threes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-three {
+    background-color: #96948f8a;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50%;
+}
+
+
+
+.why-choos-us-cards img {
+    width: 50px;
+    height: 50px;
+}
+
 
 
 
