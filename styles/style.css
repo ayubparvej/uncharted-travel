@@ -20,7 +20,8 @@ nav {
 }
 
 .logo {
-    width: 80px;
+    width: 120px;
+    height: 30px;
     cursor: pointer;
 }
 
@@ -33,6 +34,15 @@ nav {
 .nav-links li a {
     text-decoration: none;
     color: #272424
+}
+
+.nav-links li a:hover {
+    color: #e16a09;
+
+}
+
+.nav-links .home {
+    color: #e16a09;
 }
 
 .header {
@@ -65,8 +75,8 @@ nav {
 }
 
 .btn-img {
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
 }
 
 .filter-bar {
@@ -343,6 +353,9 @@ footer p {
     margin-top: 50px;
 }
 
+nav .bar-icon {
+    display: none;
+}
 
 
 
@@ -356,6 +369,44 @@ footer p {
 
 /* responsiveness */
 @media screen and (max-width: 600px) {
+
+    .logo {
+        position: fixed;
+        top: 4%;
+        left: 7%;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 80px 7% 0;
+        background: #fff;
+        text-align: right;
+
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav .nav-links li {
+        margin: 10px 0;
+        display: none;
+    }
+
+    nav .bar-icon {
+        display: block;
+        position: fixed;
+        top: 4%;
+        right: 7%;
+        width: 30px;
+        height: 30px;
+
+    }
+
+
 
     body {
         margin: 3px 10px;
@@ -394,8 +445,14 @@ footer p {
         margin: 50px 0px;
     }
 
-    .popular-tours-img {
-        margin: 10px 50px;
+    /* .popular-tours-img {
+        margin: 10px 10px;
+    } */
+
+    .popular-tours-img img {
+        height: 230px;
+        object-fit: fill;
+        width: 100%;
     }
 
     .choose-your-destination {
@@ -467,6 +524,10 @@ footer p {
         bottom: -50%;
         left: 85%;
         transform: translate(-60%, -160%) rotate(-40deg);
+    }
+
+    .footer-content img {
+        width: 50%;
     }
 
 }
