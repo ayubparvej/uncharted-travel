@@ -75,8 +75,8 @@ nav {
 }
 
 .btn-img {
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
 }
 
 .filter-bar {
@@ -523,7 +523,7 @@ nav .bar-icon {
         position: absolute;
         bottom: -50%;
         left: 85%;
-        transform: translate(-60%, -160%) rotate(-40deg);
+        transform: translate(-70%, -160%) rotate(-40deg);
     }
 
     .footer-content img {
